@@ -222,6 +222,11 @@ http://<PUBLIC-IP>/app1/index.html
 # Access metadata.html
 http://<PUBLIC-IP>/app1/metadata.html
 ```
+## Verify ssh login
+```sh
+ssh -i private-key/tf-key.pem ec2-user@3.89.185.226
+ssh -i private-key/tf-key.pem ec2-user@ec2-3-89-185-226.compute-1.amazonaws.com
+```
 
 ## Step-09: Clean-Up
 ```t
